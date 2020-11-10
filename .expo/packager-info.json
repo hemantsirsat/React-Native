@@ -2,5 +2,8 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 173816
+  "packagerPid": 173816,
+  "expoServerNgrokUrl": "https://yq-rdu.anonymous.rn-starter.exp.direct",
+  "packagerNgrokUrl": "https://packager.yq-rdu.anonymous.rn-starter.exp.direct",
+  "ngrokPid": 178970
 }
