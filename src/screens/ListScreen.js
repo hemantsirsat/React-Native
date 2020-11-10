@@ -12,16 +12,22 @@ const ListScreen = () => {
     ];
 
     return (
-            <FlatList 
-            keyExtractor = {movie => movie.Name}
+            <FlatList
+                horizontal
+                showsHorizontalScrollIndicator = {false}
+                keyExtractor = {movie => movie.Name}
                 data = { movies }
                 renderItem={({ item }) =>  {
-                    return <Text>{item.Name}</Text>;
+                    return <Text style={style.textStyle}>{item.Name}</Text>;
                 }}
             />      
             );
 };
 
-const style = StyleSheet.create({});
+const style = StyleSheet.create({
+    textStyle: {
+        marginVertical:50
+    }
+});
 
 export default ListScreen;
