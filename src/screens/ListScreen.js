@@ -15,7 +15,7 @@ const ListScreen = () => {
             <FlatList
                 keyExtractor = {movie => movie.Name}
                 data = { movies }
-                renderItem={({ item }) =>  {
+                renderItem = {({ item }) =>  {
                     return (
                         <View>
                             <Text style={style.textStyle}>{item.Name} Available on {item.Online}</Text>
