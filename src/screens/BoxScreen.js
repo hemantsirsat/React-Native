@@ -22,21 +22,22 @@ const style = StyleSheet.create({
         borderWidth:2,
         borderColor:'blue',
         padding:5,
-        flex:4
+        alignSelf:'flex-start',
     },
     texttwoStyle:{
         margin:10,
         borderWidth:2,
         borderColor:'blue',
         padding:5,
-        flex:4
+        alignSelf:'center'
     },
     textthreeStyle:{
         margin:10,
         borderWidth:2,
         borderColor:'blue',
         padding:5,
-        flex:2
+        alignSelf:"flex-end",
+        position:'absolute'
     },
 });
 
