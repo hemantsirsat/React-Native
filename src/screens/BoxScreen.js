@@ -21,7 +21,9 @@ const style = StyleSheet.create({
     viewStyle:{
         borderWidth:3,
         borderColor:'red',
-        alignItems:'center'
+        flexDirection:'row',
+        justifyContent:'center'
+        
     }
 });
 
