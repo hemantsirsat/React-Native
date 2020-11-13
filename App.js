@@ -18,7 +18,8 @@ const navigator = createStackNavigator(
     Counter: CounterScreen,
     Color: ColorScreen,
     Text: TextScreen,
-    Box: BoxScreen
+    Box: BoxScreen,
+
   },
   {
     initialRouteName: "Home",
