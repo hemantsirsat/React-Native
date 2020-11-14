@@ -37,7 +37,8 @@ const style = StyleSheet.create({
         borderColor:'blue',
         padding:5,
         alignSelf:"flex-end",
-        position:'absolute'
+        position:'absolute',
+        right:5
     },
 });
 

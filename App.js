@@ -8,6 +8,8 @@ import CounterScreen from './src/screens/CounterScreen';
 import ColorScreen from './src/screens/ColorScreen';
 import TextScreen from './src/screens/TextScreen';
 import BoxScreen from './src/screens/BoxScreen';
+import SearchScreen from './src/screens/SearchScreen';
+import ResultsShowScreen from './src/screens/ResultsShowScreen';
 
 const navigator = createStackNavigator(
   {
@@ -19,12 +21,14 @@ const navigator = createStackNavigator(
     Color: ColorScreen,
     Text: TextScreen,
     Box: BoxScreen,
+    Search: SearchScreen,
+    ResultsShow: ResultsShowScreen
 
   },
   {
     initialRouteName: "Home",
     defaultNavigationOptions: {
-      title: "React-Native Basics"
+      title: "Business"
     }
   }
 );
